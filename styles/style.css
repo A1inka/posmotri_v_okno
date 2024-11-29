@@ -245,10 +245,6 @@ ol {
   outline-offset: 1px;
 }
 
-.more-button {
-  width: 100%;
-}
-
 .search-form__pseudo-checkbox {
   display: inline-block;
   justify-content: center;
@@ -268,4 +264,8 @@ ol {
 .search-form__checkbox:checked + .search-form__pseudo-checkbox {
   border: 1px solid #1b1919;
   background-color: #fff;
+}
+
+.more-button {
+  width: 100%;
 }
