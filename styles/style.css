@@ -58,7 +58,6 @@ ol {
   position: relative;
   height: 298px;
   overflow-y: auto;
-  scrollbar-width: none;
 }
 
 .content__details {
@@ -92,9 +91,13 @@ ol {
   padding: 2px 0;
 }
 
-.content__video-card:hover .content__video-card-description-container {
+.content__card-link:hover {
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+.content__card-link:active {
+  background-color: #545050;
 }
 
 .content__video-card-thumbnail {
@@ -112,7 +115,7 @@ ol {
 }
 
 .title {
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 75px;
   line-height: 70px;
   text-transform: uppercase;
@@ -124,7 +127,7 @@ ol {
 
 .content__video-card-title {
   margin-bottom: 6px;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 30px;
@@ -190,7 +193,6 @@ ol {
   border: none;
   border-top: 1px #fff solid;
   border-bottom: 1px #fff solid;
-  opacity: 0.7;
   color: inherit;
   font-family: inherit;
   font-size: 18px;
@@ -208,9 +210,8 @@ ol {
 }
 
 .button {
-  height: 34px;
   border: 1px #fff solid;
-  padding: 2px 0;
+  padding: 6px 0;
   color: #fff;
   font-family: inherit;
   font-weight: 700;
